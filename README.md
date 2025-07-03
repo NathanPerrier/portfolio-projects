@@ -108,7 +108,3 @@ This project is open source and available under the [MIT License](LICENSE).
 - **GitHub**: [@NathanPerrier](https://github.com/NathanPerrier)
 - **LinkedIn**: [Nathan Perrier](https://linkedin.com/in/nathan-perrier23)
 - **Email**: contact@nathanperrier.dev
-
----
-
-Built with ❤️ and NES.css
