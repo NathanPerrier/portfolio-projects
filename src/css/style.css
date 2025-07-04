@@ -1,3 +1,40 @@
+/* Loading screen styles */
+.loading-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(53, 58, 63);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+.loading-content {
+  text-align: center;
+  width: 300px;
+}
+
+.loading-text {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1.2rem;
+  color: #fff;
+  margin-bottom: 2rem;
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0%, 50% { opacity: 1; }
+  51%, 100% { opacity: 0; }
+}
+
+.loading-container .nes-progress {
+  width: 100%;
+  height: 30px;
+}
+
 :root {
   font-family: 'Press Start 2P', cursive;
   line-height: 1.5;

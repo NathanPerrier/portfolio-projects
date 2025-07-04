@@ -26,7 +26,14 @@
     <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
   </head>
   <body>
-    <div id="app">
+    <!-- Loading Screen -->
+    <div id="loading-screen" class="loading-container">
+      <div class="loading-content">
+        <progress class="nes-progress is-primary" value="0" max="100"></progress>
+      </div>
+    </div>
+    
+    <div id="app" style="display: none;">
       <!-- Header -->
       <header class="nes-container is-dark with-title">
         <h1 class="title">Nathan Perrier</h1>
